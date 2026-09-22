@@ -10,8 +10,9 @@ function App() {
     <>
       <h1>COUNTER</h1>
       <h1>{countdown}</h1>
+
       <button onClick={() => dispatch(increment())}>PLUS</button>
-      <button onClick={() => dispatch(decrement())}>MINUS</button>
+      <button onClick={() => dispatch(decrement())}>MINES</button>
       <button onClick={() => dispatch(reset())}>REST</button>
     </>
   )
